@@ -14,7 +14,7 @@ def main():
         venv_python_path = os.path.join(project_directory, "venv", "Scripts", "python.exe")
         subprocess.run([venv_python_path, python_script_path])
     else:
-        print("FUck OFF")
+        print("Enter a valid URL Link")
 
 
 if __name__ == "__main__":
